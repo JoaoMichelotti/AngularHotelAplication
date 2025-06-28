@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class Rooms {
 
+  hotelName = 'Hilton Hotel';
+
+  numberofRooms = 10;
+
+  hideRooms = false
+
+  toggle() {
+    this.hideRooms = !this.hideRooms;
+  }
+
 }
