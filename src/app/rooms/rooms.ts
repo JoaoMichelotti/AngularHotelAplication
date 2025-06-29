@@ -6,13 +6,14 @@ import { Component } from '@angular/core';
   templateUrl: './rooms.html',
   styleUrl: './rooms.scss'
 })
+
 export class Rooms {
 
   hotelName = 'Hilton Hotel';
 
   numberofRooms = 10;
 
-  hideRooms = false
+  hideRooms = false;
 
   toggle() {
     this.hideRooms = !this.hideRooms;
