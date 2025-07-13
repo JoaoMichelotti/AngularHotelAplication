@@ -1,2 +1,16 @@
 <h1>Hello World</h1>
-<hinv-rooms></hinv-rooms>
+
+@switch (LoginType) {
+
+    @case ("Admin") {
+        <p>Welcome Admin</p>
+        <hinv-rooms></hinv-rooms>
+    }
+    @case ("User") {
+        <p>Welcome User</p>
+    }
+    @default {
+        <p>Please do the Login!</p>
+    }
+
+}

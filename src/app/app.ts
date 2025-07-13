@@ -10,4 +10,8 @@ import { Rooms } from "./rooms/rooms";
 })
 export class App {
   protected title = 'hotelinventoryapp';
+
+  LoginType = "User"
+
+
 }
